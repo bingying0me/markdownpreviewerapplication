@@ -1,0 +1,24 @@
+.markdowninput-div {
+  width: 100%;
+  max-width: 50%;
+  height: calc(100vh - 66px);
+}
+
+.markdowninput-textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .markdowninput-div {
+    margin: 8px;
+    height: 300px;
+    max-width: calc(100% - 16px);
+  }
+}

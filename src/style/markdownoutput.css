@@ -1,0 +1,17 @@
+.makdownoutput-div {
+  width: 100%;
+  max-width: 50%;
+  height: calc(100vh - 100px);
+  padding: 16px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .makdownoutput-div {
+    margin: 8px;
+    height: 300px;
+    max-width: calc(100% - 16px - 32px);
+  }
+}

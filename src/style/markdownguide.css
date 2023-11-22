@@ -1,0 +1,25 @@
+.guidecontainer-div {
+  padding: 16px;
+  background-color: #f8f8f8;
+}
+
+.guidecontainer-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guidecontainer-li {
+  font-family: 'Courier New', monospace;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .guidecontainer-div {
+    padding: 8px;
+  }
+
+  .guidecontainer-li {
+    font-size: 14px;
+  }
+}
